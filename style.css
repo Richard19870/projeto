@@ -1,0 +1,74 @@
+
+body {
+  background: radial-gradient(circle at center, #0d0d0d 0%, #1a1a1a 100%);
+  font-family: 'Arial', sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin-top: 60px;
+  padding: 20px;
+  background: #220022;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ff00ff;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #ff00ff;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:nth-child(1) {
+  background-color: #660000;
+  color: white;
+}
+
+button:nth-child(2), button {
+  background-color: #cc00cc;
+  color: white;
+}
+
+#chat-box {
+  background: #330033;
+  border-radius: 10px;
+  padding: 10px;
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
